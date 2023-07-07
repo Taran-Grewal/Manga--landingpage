@@ -16,5 +16,19 @@ background-color: rgb(111, 173, 143)
     border: 1px solid black;
     
 }
+.header{
+    display: flex;
+    
+}
+.links{
+    display: flex;
+   
+}
+li{
+    list-style: none;
+    
+}
+
+
 
     
