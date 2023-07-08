@@ -92,9 +92,8 @@ li{
 .Button.Sign-in{
     margin-left: auto;
 }
-.Button{
-    margin-left: auto
-}
+
+
   .content001.part1{
     display: block;
   }
@@ -146,7 +145,51 @@ li{
         object-fit:cover;
        
     }
+    .container03{
+      width: auto;;
+    height: 200px;
+    border: 1px solid black;
     
+
+    }
+    .container02{width: auto;
+      height: 200px;
+      border: 1px solid black;
+      border-bottom: 0;
+    }
+    .container03 .action{
+      height: 100px;
+      border: 1px solid black;
+      width: 800px;
+      border-radius: 10px;
+     
+      
+
+    }
+    .container03{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .action{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+    }
+    .Button.Sign-up{
+      width: 53.953;
+      height: 21;
+    }
+    .action button{
+      height: 27px;
+      width: 69.953;
+      border-radius: 8px;
+    }
+   .links{
+    margin-right: auto;
+   }
+   
     
         
      
