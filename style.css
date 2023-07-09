@@ -3,8 +3,11 @@ body{
 }
 
 .recipe-card{
+  display: flex;
+  flex-direction: column;
 background-color: rgb(132, 167, 161);
 height: 2529.580px;
+flex-shrink: 0;
 
 
 }
@@ -61,6 +64,8 @@ li{
 .content000{
   display: flex;
   justify-content: center;
+  width: auto;
+
 }
 .content p{
     text-align: center;
@@ -78,17 +83,21 @@ li{
     justify-content: space-evenly;
     background-color:rgb(132, 167, 161);
     height: 438px;
+    width: auto;
+  flex-shrink: 0px;
 }
 .content0001{
     display: flex;
     justify-content: space-evenly;
     background-color: rgb(132, 167, 161);
+    flex-shrink: 0px;
 }
 
 .content01{
     display: flex;
     justify-content: space-evenly;
     background-color: rgb(132, 167, 161);
+    flex-shrink: 0;
 }
 .content0 h1,
 .content00 h1,
