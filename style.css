@@ -180,12 +180,12 @@ li{
     }
     .Button.Sign-up{
       width: 53.953;
-      height: 21;
+      height:21px;
       border: 1px;
     }
     .action button{
-      height: 27px;
-      width: 69.953;
+      height: 30px;
+      width:max-content;
       border-radius: 8px;
       border: 1px;
     }
@@ -199,6 +199,17 @@ li{
     text-decoration: none;
     color: black;
    }
+   .Sign-up img{
+    
+    height: 28px;
+    width: 71px;
+    border-radius: 8px;
+      
+
+    object-fit:fill;
+   }
+
+  
         
      
         
