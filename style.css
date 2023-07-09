@@ -1,5 +1,5 @@
 body{
-  margin: 0%;
+  margin: auto;
 }
 
 .recipe-card{
@@ -55,6 +55,12 @@ li{
     justify-content: center;
     
 }    
+.content0,
+.content00,
+.content000{
+  display: flex;
+  justify-content: center;
+}
 .content p{
     text-align: center;
     color: gold;
