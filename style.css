@@ -3,10 +3,15 @@ body{
 }
 
 .recipe-card{
-background-color: rgb(111, 173, 143)
+background-color: rgb(111, 173, 143);
+width: 1450px;
+height: 2729.580;
+
 }
 .content{
     background-color:rgb(132, 167, 161);
+    height:  576.797px;
+    width: 1450px;
 
 }
 .box1,
@@ -48,6 +53,7 @@ li{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
+
 .content{
     display: flex;
     justify-content: center;
@@ -68,17 +74,24 @@ li{
     display: flex;
     justify-content: space-evenly;
     background-color:rgb(132, 167, 161);
+    width: 1450px;
+    height:438px;
+
 }
 .content0001{
     display: flex;
     justify-content: space-evenly;
     background-color: rgb(132, 167, 161);
+    width: 1450px;
+    height:438px;
 }
 
 .content01{
     display: flex;
     justify-content: space-evenly;
     background-color: rgb(132, 167, 161);
+    width: 1450px;
+    height:438px;
 }
 .content0 h1,
 .content00 h1,
@@ -87,6 +100,8 @@ li{
     margin-left: 30px;
     color: rgb(14, 41, 84);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 1450px;
+    height:45px
  
     
 }
@@ -109,6 +124,7 @@ li{
   
   .container02 p{
     text-align: center;
+   
     
   }
   .action p{
@@ -134,9 +150,11 @@ li{
   }
   .container02{
     display: flex;
-    width: 400px;
+   
     flex-wrap: wrap;
     background-color: rgb(132, 167, 161);
+    width: 1450px;
+    height:200x;
    
 
   }
@@ -159,10 +177,11 @@ li{
        
     }
     .container03{
-      width: auto;;
+      width: 1450;
     height: 200px;
     
     background-color:rgb(132, 167, 161);
+
     
 
     }
@@ -254,6 +273,10 @@ text-decoration-color: rgb(14, 41, 84);
   height: 400px;
   object-fit:cover;
   
+}
+footer.bade{
+  width: 1450px;
+  height:40px;
 }
   
         
