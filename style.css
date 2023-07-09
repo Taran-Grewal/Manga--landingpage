@@ -4,14 +4,14 @@ body{
 
 .recipe-card{
 background-color: rgb(111, 173, 143);
-width: 1450px;
+width: auto;
 height: 2729.580;
 
 }
 .content{
     background-color:rgb(132, 167, 161);
     height:  576.797px;
-    width: 1450px;
+    width: auto;
 
 }
 .box1,
@@ -74,7 +74,7 @@ li{
     display: flex;
     justify-content: space-evenly;
     background-color:rgb(132, 167, 161);
-    width: 1450px;
+    width: auto;
     height:438px;
 
 }
@@ -82,7 +82,7 @@ li{
     display: flex;
     justify-content: space-evenly;
     background-color: rgb(132, 167, 161);
-    width: 1450px;
+    width: auto;
     height:438px;
 }
 
@@ -90,7 +90,7 @@ li{
     display: flex;
     justify-content: space-evenly;
     background-color: rgb(132, 167, 161);
-    width: 1450px;
+    width: auto;
     height:438px;
 }
 .content0 h1,
@@ -100,7 +100,7 @@ li{
     margin-left: 30px;
     color: rgb(14, 41, 84);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 1450px;
+    width: auto;
     height:45px
  
     
@@ -153,17 +153,17 @@ li{
    
     flex-wrap: wrap;
     background-color: rgb(132, 167, 161);
-    width: 1450px;
+    width: auto;
     height:200x;
    
 
   }
   .inside{
-    width: 400px;
+    width: auto;
   }
     .part1 img{
         
-        width: 250px;
+        height: 200px;
        
         object-fit:cover;
 
@@ -177,7 +177,7 @@ li{
        
     }
     .container03{
-      width: 1450;
+      width: auto;
     height: 200px;
     
     background-color:rgb(132, 167, 161);
@@ -275,7 +275,7 @@ text-decoration-color: rgb(14, 41, 84);
   
 }
 footer.bade{
-  width: 1450px;
+  width: auto;
   height:40px;
 }
   
