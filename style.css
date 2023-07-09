@@ -3,15 +3,10 @@ body{
 }
 
 .recipe-card{
-background-color: rgb(111, 173, 143);
-width: auto;
-height: 2729.580;
-
+background-color: rgb(132, 167, 161);
 }
 .content{
-    background-color:rgb(132, 167, 161);
-    height:  576.797px;
-    width: auto;
+background-color:rgb(132, 167, 161);
 
 }
 .box1,
@@ -21,8 +16,15 @@ height: 2729.580;
 .box5{
     width: 250px;;
     height: 375px;
-    
-    
+   
+
+
+}.header{
+  display: flex;
+  align-items: center;
+  background-color: rgb(46, 138, 153);
+
+
 }
 
 
@@ -30,13 +32,6 @@ height: 2729.580;
 
 
 
-.header{
-    display: flex;
-    align-items: center;
-    background-color: rgb(46, 138, 153);
-
-    
-}
 .links{
     margin-right: 60px;
     margin-left: 0px;
@@ -50,10 +45,8 @@ height: 2729.580;
 }
 li{
     list-style: none;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    font-family:sans-serif; 
 }
-
 .content{
     display: flex;
     justify-content: center;
@@ -74,38 +67,31 @@ li{
     display: flex;
     justify-content: space-evenly;
     background-color:rgb(132, 167, 161);
-    width: auto;
-    height:438px;
-
 }
 .content0001{
     display: flex;
     justify-content: space-evenly;
     background-color: rgb(132, 167, 161);
-    width: auto;
-    height:438px;
 }
 
 .content01{
     display: flex;
     justify-content: space-evenly;
     background-color: rgb(132, 167, 161);
-    width: auto;
-    height:438px;
 }
 .content0 h1,
 .content00 h1,
 .content000 h1
 {
     margin-left: 30px;
+   
     color: rgb(14, 41, 84);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: auto;
-    height:45px
- 
-    
+
+
 }
 .profile-image{
+    
     background: rgb(132, 167, 161);
     box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
     border-radius: 50%;
@@ -119,24 +105,16 @@ li{
 .Button.Sign-in{
     margin-left: auto;
 }
-
-
-  
-  .container02 p{
-    text-align: center;
-   
-    
-  }
   .action p{
     text-align: center;
-
   }
   .base p{
     
     align-self: center;
-    
+
   }
   .base{
+    
     background-color: rgb(46, 138, 153);
     height: 80px;
 
@@ -146,58 +124,49 @@ li{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
   }
-  .container02{
-    display: flex;
-   
-    flex-wrap: wrap;
-    background-color: rgb(132, 167, 161);
-    width: auto;
-    height:200x;
-   
 
-  }
+
+
+  
   .inside{
-    width: auto;
+    width: 400px;
   }
     .part1 img{
         
-        height: 200px;
+        width: 250px;
        
         object-fit:cover;
-
     }
     .profile-image img{
        width: 48px;
        height: 48px;
        border-radius: 50%;
         object-fit:cover;
-       
-       
+
+
     }
     .container03{
-      width: auto;
+      width: auto;;
     height: 200px;
-    
+
     background-color:rgb(132, 167, 161);
 
-    
 
     }
-    .container02{width: auto;
-      height: 200px;
-      
-      border-bottom: 0;
-    }
+   
+     
+
+
+    
     .container03 .action{
       height: 100px;
-     
-      width: 800px;
-      border-radius: 10px;
-     
       
 
+      width: 800px;
+      border-radius: 10px;
+
+      
     }
     .container03{
       display: flex;
@@ -208,7 +177,6 @@ li{
       display: flex;
       align-items: center;
       justify-content:space-evenly;
-
     }
     .Button.Sign-up{
       width: 53.953;
@@ -230,15 +198,15 @@ li{
    }
    a{
     text-decoration: none;
+    
     color: rgb(14, 41, 84);
    }
    .Sign-up img{
-    
+
     height: 28px;
     width: 71px;
     border-radius: 8px;
       
-
     object-fit:fill;
    }
    
@@ -248,7 +216,6 @@ li{
     .part4 p,
     .part5 p{
    
-
     text-align: center;
     font-family:sans-serif;
    }
@@ -256,6 +223,7 @@ li{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight:bolder;
    }
+
    .recipe-card{
     background-color: rgb(46, 138, 153);
    }
@@ -265,31 +233,14 @@ li{
 .base p{
   color: rgb(14, 41, 84);
 }
-.container02 .inside p{
-text-decoration-color: rgb(14, 41, 84);
-}
-.content .image img{
-  width: 1900px;
+
+
+.image img{
+  width: 1000px;
   height: 400px;
-  object-fit:cover;
-  
-}
-footer.bade{
-  width: auto;
-  height:40px;
-}
-  
+  object-fit: cover;
+} 
+
+
+
         
-     
-        
-    
-  
-  
-
-    
-
-
-
-
-
-    
