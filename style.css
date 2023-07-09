@@ -41,6 +41,7 @@ background-color: rgb(111, 173, 143)
 }
 li{
     list-style: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
 .content{
@@ -55,6 +56,8 @@ li{
 }
 .content h1{
     text-align: center;
+    font-weight: lighter;
+    font-family:serif
    
 }
 .content001{
@@ -76,6 +79,7 @@ li{
 {
     margin-left: 30px;
     color: rgba(153, 42, 39, 0.904);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  
     
 }
@@ -95,9 +99,7 @@ li{
 }
 
 
-  .content001.part1{
-    display: block;
-  }
+  
   .container02 p{
     text-align: center;
     
@@ -175,7 +177,7 @@ li{
     .action{
       display: flex;
       align-items: center;
-      justify-content: space-evenly;
+      justify-content:space-evenly;
 
     }
     .Button.Sign-up{
@@ -188,6 +190,7 @@ li{
       width:max-content;
       border-radius: 8px;
       border: 1px;
+      margin-right: 15%
     }
    .links{
     margin-right: auto;
@@ -207,6 +210,21 @@ li{
       
 
     object-fit:fill;
+   }
+   
+   .part1 p,
+    .part2 p,
+   .part3 p,
+    .part4 p,
+    .part5 p{
+   
+
+    text-align: center;
+    font-family:sans-serif;
+   }
+   .logo p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bolder;
    }
 
   
