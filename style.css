@@ -249,6 +249,11 @@ li{
 .container02 .inside p{
 text-decoration-color: rgb(14, 41, 84);
 }
+.content .image img{
+  width: 1450px;
+  height: 500px;
+  object-fit: cover;
+}
   
         
      
