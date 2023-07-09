@@ -4,6 +4,8 @@ body{
 
 .recipe-card{
 background-color: rgb(132, 167, 161);
+width:100%;
+
 }
 .content{
 background-color:rgb(132, 167, 161);
@@ -14,8 +16,9 @@ background-color:rgb(132, 167, 161);
 .box3,
 .box4,
 .box5{
-    width: 250px;;
+   
     height: 375px;
+     width: 250px;;
    
 
 
@@ -83,7 +86,7 @@ li{
 .content00 h1,
 .content000 h1
 {
-    margin-left: 102px;
+    margin-left: 102 px;
    
     color: rgb(14, 41, 84);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -125,10 +128,14 @@ li{
     flex-wrap: wrap;
     justify-content: center;
   }
+ .container02{
+    display: flex;
 
-
-
-  
+    flex-wrap: wrap;
+    background-color: rgb(132, 167, 161);
+    width: 1450px;
+    height:200x;
+ }
   .inside{
     width: 400px;
   }
@@ -138,6 +145,11 @@ li{
        
         object-fit:cover;
     }
+
+
+  
+  
+    
     .profile-image img{
        width: 48px;
        height: 48px;
