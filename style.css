@@ -1,5 +1,6 @@
 body{
   margin: auto;
+  width: min-content;
 }
 
 .recipe-card{
@@ -71,10 +72,11 @@ li{
     display: flex;
     justify-content: space-evenly;
     background-color:rgb(132, 167, 161);
-    height: 438px;
+    height: auto;
     width: auto;
-  flex-shrink: 0px;
+  
 }
+
 .content0001{
     display: flex;
     justify-content: space-evenly;
@@ -242,4 +244,8 @@ li{
     width: 100%;
     height: 100%;
   }
+ 
 }
+
+
+    
