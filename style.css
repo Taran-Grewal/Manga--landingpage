@@ -13,7 +13,6 @@ flex-shrink: 0;
 }
 .content{
 background-color:rgb(132, 167, 161);
-
 }
 .box1,
 .box2,
@@ -24,21 +23,11 @@ background-color:rgb(132, 167, 161);
     height: 375px;
      width: 250px;;
    
-
-
 }.header{
   display: flex;
   align-items: center;
   background-color: rgb(46, 138, 153);
-
-
 }
-
-
-
-
-
-
 .links{
     margin-right: 60px;
     margin-left: 0px;
@@ -107,8 +96,6 @@ li{
    
     color: rgb(14, 41, 84);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-
 }
 .profile-image{
     
@@ -131,14 +118,11 @@ li{
   .base p{
     
     align-self: center;
-
   }
   .base{
     
     background-color: rgb(46, 138, 153);
     height: 80px;
-
-
   }
   .base{
     display: flex;
@@ -147,7 +131,6 @@ li{
   }
  .container02{
     display: flex;
-
     flex-wrap: wrap;
     background-color: rgb(132, 167, 161);
     width: 1450px;
@@ -162,8 +145,6 @@ li{
        
         object-fit:cover;
     }
-
-
   
   
     
@@ -172,29 +153,20 @@ li{
        height: 48px;
        border-radius: 50%;
         object-fit:cover;
-
-
     }
     .container03{
       width: auto;;
     height: 200px;
-
     background-color:rgb(132, 167, 161);
-
-
     }
    
      
-
-
     
     .container03 .action{
       height: 100px;
       
-
       width: 800px;
       border-radius: 10px;
-
       
     }
     .container03{
@@ -231,7 +203,6 @@ li{
     color: rgb(14, 41, 84);
    }
    .Sign-up img{
-
     height: 28px;
     width: 71px;
     border-radius: 8px;
@@ -252,7 +223,6 @@ li{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight:bolder;
    }
-
    .recipe-card{
     background-color: rgb(46, 138, 153);
    }
@@ -262,14 +232,14 @@ li{
 .base p{
   color: rgb(14, 41, 84);
 }
-
-
 .image img{
   width: 1000px;
   height: 400px;
   object-fit: cover;
 } 
-
-
-
-        
+@media only screen and (max-width:2000px){
+  .recipe-card{
+    width: 100%;
+    height: 100%;
+  }
+}
